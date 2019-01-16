@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = model_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=1vAaVrbdWkGYw2T7lhsO3ia6JgPNizr8'
+model_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=1vAaVrbdWkGYw2T7lhsO3ia6JgPNizr8'
 model_file_name = 'model'
 
 classes = ['Cotton Pygmy Goose','Gadwall','Northern Pintail','Eurasian Teal', 'Garganey',
