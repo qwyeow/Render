@@ -8,11 +8,10 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=1IsQpMmXdZNQmMwb0T9Z8Hif0Ni93pvw'
+model_file_url = 'https://www.dropbox.com/s/y4kl2gv1akv7y4i/stage-2.pth?raw=1'
 model_file_name = 'model'
 
-classes = ['Cotton Pygmy Goose','Gadwall','Northern Pintail','Eurasian Teal', 'Garganey',
-        'Short-tailed Shearwater','Eurasian Wigeon','Tufted Duck','Northern Shoveler', 'Little Grebe']
+classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
 
 app = Starlette()
